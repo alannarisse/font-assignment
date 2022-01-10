@@ -1,0 +1,36 @@
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Vujahday Script', cursive;
+*/
+
+body {
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fjalla One", sans-serif;
+  display: inline;
+}
+p {
+  display: inline;
+}
+.highlight {
+  font-family: "Vujahday Script", cursive;
+  font-size: 32px;
+  color: rgb(255, 72, 0);
+}
+.bigger {
+  font-size: 60px;
+}
+.wrapper {
+  width: 70%;
+  margin: 80px auto 0 auto;
+}
+.write-rl {
+  writing-mode: vertical-rl;
+  font-family: "Fjalla One", sans-serif;
+}
