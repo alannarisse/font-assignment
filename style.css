@@ -34,3 +34,33 @@ p {
   writing-mode: vertical-rl;
   font-family: "Fjalla One", sans-serif;
 }
+.animated .anim {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.animated .one {
+  animation-delay: 100ms;
+}
+.animated .two {
+  animation-delay: 1s;
+}
+.animated .three {
+  animation-delay: 2s;
+}
+.animated .four {
+  animation-delay: 3s;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cursive {
+  font-family: cursive;
+}
